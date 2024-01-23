@@ -9,7 +9,7 @@ CREATE TABLE film (
   ev int,
   nyert bool,
   magyar varchar(50),
-  cim varchar(50),
+  cim varchar(50) UNIQUE,
   bemutato date,
   PRIMARY KEY (id)
 );

@@ -1,9 +1,34 @@
-CREATE DATABASE oscardijasfilmek 
-DEFAULT CHARACTER SET utf8
-COLLATE utf8_hungarian_ci;
- use oscardijasfilmek;create table film(id int(11)  ,ev int(11)  ,nyert boolean  ,magyar varchar(100)  ,cim varchar(100)  ,bemutato date  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+﻿DROP DATABASE IF EXISTS oscardijasfilmek;
+
+CREATE DATABASE oscardijasfilmek DEFAULT CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
+
+USE oscardijasfilmek
+
+CREATE TABLE film (
+  id int,
+  ev int,
+  nyert bool,
+  magyar varchar(50),
+  cim varchar(50),
+  bemutato date,
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE kapcsolat (
+  filmId int,
+  keszitoId int,
+  PRIMARY KEY (filmId, keszitoId)
+);
+
+CREATE TABLE keszito (
+  id int,
+  nev varchar(50),
+  producer bool,
+  PRIMARY KEY (id)
+);
+
  
-ALTER TABLE film ADD PRIMARY KEY(id);
+
  INSERT INTO film VALUES
 ( 179,1928,1,"Szárnyak","Wings",null),
 ( 330,1928,0,"A hetedik mennyország","7th Heaven",null),
@@ -568,9 +593,9 @@ ALTER TABLE film ADD PRIMARY KEY(id);
 ( 486,2019,0,"Volt egyszer egy Hollywood","Once Upon a Time in Hollywood","2019-08-15"),
 ( 497,2019,0,"Az aszfalt királyai","Ford v Ferrari","2019-11-14"),
 ( 561,2019,0,"Házassági történet","Marriage Story","2019-12-06");
-create table kapcsolat(filmid int(11)  ,keszitoid int(11)  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+
  
-ALTER TABLE kapcsolat ADD PRIMARY KEY(filmid,keszitoid);
+
  INSERT INTO kapcsolat VALUES
 ( 500,279),
 ( 270,326),
@@ -1504,9 +1529,9 @@ ALTER TABLE kapcsolat ADD PRIMARY KEY(filmid,keszitoid);
 ( 320,341),
 ( 304,369),
 ( 371,385);
-create table keszito(id int(11)  ,nev varchar(100)  ,producer boolean  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+
  
-ALTER TABLE keszito ADD PRIMARY KEY(id);
+
  INSERT INTO keszito VALUES
 ( 1,"John Brabourne",1),
 ( 2,"David Brown",1),
@@ -2070,4 +2095,7 @@ ALTER TABLE keszito ADD PRIMARY KEY(id);
 ( 560,"Thomas Langmann",1),
 ( 561,"Lisa Bruce",1),
 ( 562,"Spike Lee",1);
-ALTER TABLE `kapcsolat` ADD CONSTRAINT `kapcsolat_21`   FOREIGN KEY (`keszitoid`)     REFERENCES `keszito` (`id`);ALTER TABLE `kapcsolat` ADD CONSTRAINT `kapcsolat_31`   FOREIGN KEY (`filmid`)     REFERENCES `film` (`id`);
+
+
+ALTER TABLE kapcsolat ADD CONSTRAINT FK_kapcsolat_1 FOREIGN KEY (filmId) REFERENCES film(id);
+ALTER TABLE kapcsolat ADD CONSTRAINT FK_kapcsolat_2 FOREIGN KEY (keszitoId) REFERENCES keszito(id);

@@ -4,7 +4,7 @@ CREATE DATABASE oscardijasfilmek DEFAULT CHARACTER SET utf8 COLLATE utf8_hungari
 
 USE oscardijasfilmek
 
-CREATE TABLE film (
+CREATE TABLE filmek (
   id int,
   ev int,
   nyert bool,
@@ -14,13 +14,13 @@ CREATE TABLE film (
   PRIMARY KEY (id)
 );
 
-CREATE TABLE kapcsolat (
+CREATE TABLE kapcsolatok (
   filmId int,
   keszitoId int,
   PRIMARY KEY (filmId, keszitoId)
 );
 
-CREATE TABLE keszito (
+CREATE TABLE keszitok (
   id int,
   nev varchar(50),
   producer bool,
@@ -29,7 +29,7 @@ CREATE TABLE keszito (
 
  
 
- INSERT INTO film VALUES
+ INSERT INTO filmek VALUES
 ( 179,1928,1,"Szárnyak","Wings",null),
 ( 330,1928,0,"A hetedik mennyország","7th Heaven",null),
 ( 468,1928,0,"A bűnbanda","The Racket",null),
@@ -596,7 +596,7 @@ CREATE TABLE keszito (
 
  
 
- INSERT INTO kapcsolat VALUES
+ INSERT INTO kapcsolatok VALUES
 ( 500,279),
 ( 270,326),
 ( 18,176),
@@ -1532,7 +1532,7 @@ CREATE TABLE keszito (
 
  
 
- INSERT INTO keszito VALUES
+ INSERT INTO keszitok VALUES
 ( 1,"John Brabourne",1),
 ( 2,"David Brown",1),
 ( 3,"Jonas Rivera",1),
@@ -2097,5 +2097,5 @@ CREATE TABLE keszito (
 ( 562,"Spike Lee",1);
 
 
-ALTER TABLE kapcsolat ADD CONSTRAINT FK_kapcsolat_1 FOREIGN KEY (filmId) REFERENCES film(id);
-ALTER TABLE kapcsolat ADD CONSTRAINT FK_kapcsolat_2 FOREIGN KEY (keszitoId) REFERENCES keszito(id);
+ALTER TABLE kapcsolatok ADD CONSTRAINT FK_kapcsolat_1 FOREIGN KEY (filmId) REFERENCES filmek(id);
+ALTER TABLE kapcsolatok ADD CONSTRAINT FK_kapcsolat_2 FOREIGN KEY (keszitoId) REFERENCES keszitok(id);

@@ -20,21 +20,29 @@ Futtassa le a **oscardijasfilmek.sql** állományt az alábbi táblák(`filmek`,
 ### Táblák:
 #### 1. `filmek`
 
-| id  | ev  | nyert | magyar  | cim     | bemutato |
-| :-: | :-: | :---: | :-----: | :-----: | :------: |
-| int | int | bool  | varchar | varchar | date     |
+| Azonosító | Típus   | Leírás                                    |
+| :-------: | :-----: | :----:                                    |
+| id        | int     | A film azonosítója, ez a kulcs            |
+| ev        | int     | A film Oscar-díjra jelölésének éve        |
+| nyert     | bool    | A film elnyerte-e a díjat                 |
+| magyar    | varchar | A film magyar nyelvű címe, ha ismert      |
+| cim       | varchar | A film eredeti címe. A címek egyediek     |
+| bemutato  | date    | A film magyarországi bemutatójának dátuma |
 
 #### 2. `kapcsolatok`
 
-| filmId | keszitoId |
-| :----: | :-------: |
-| int    | int       |
+| Azonosító | Típus | Leírás                            |
+| :-------: | :---: | :----:                            |
+| filmId    | int   | A film azonosítója, ez a kulcs    |
+| keszitoId | int   | A készítő azonosítója, ez a kulcs |
 
 #### 3. `keszitok`
 
-| id  | nev     | producer |
-| :-: | :-----: | :------: |
-| int | varchar | bool     |
+| Azonosító | Típus   | Leírás                            |
+| :-------: | :-----: | :----:                            |
+| id        | int     | A készítő azonosítója, ez a kulcs |
+| nev       | varchar | A készítő neve                    |
+| producer  | bool    | A név producerhez tartozik-e      |
 
 ![táblák](oscardijabra_javitott.png)
 

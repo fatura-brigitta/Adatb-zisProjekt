@@ -8,13 +8,13 @@ ezek közül választja ki a legjobbat. Ez az adatbázis a jelölt filmeket tart
 
 ---
 ### Feladatok:
-[1. feladat](#1-készítsen-új-adatbázist-oscar-néven)
-[2. feladat](#2-feladat)
+- [1. feladat](#1-készítsen-új-adatbázist-oscar-néven)
+- [2. feladat](#2-feladat)
 
 
 ---
 ## 1. Készítsen új adatbázist oscar néven!
-- Futtassa le a **oscardijasfilmek.sql** állományt az alábbi táblák(`filmek`, `kapcsolatok`, `keszitok`) létrehozássához és feltöltéséhez
+- Futtassa le a **oscardijasfilmek.sql** állományt az alábbi táblák(`filmek`, `kapcsolatok`, `keszitok`) létrehozásához és feltöltéséhez
 
 ### Táblák:
 #### 1. `filmek`

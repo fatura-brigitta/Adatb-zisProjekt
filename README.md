@@ -38,3 +38,5 @@ ezek közül választja ki a legjobbat. Ez az adatbázis a jelölt filmeket tart
 ![táblák](oscardijabra_javitott.png)
 
 ## 2. feladat
+- Készítsen lekérdezést, amely az elismerés évének sorrendjében jeleníti meg az Oscar-díjas
+filmeket! Az elnyerés éve és a film eredeti címe jelenjen meg! 

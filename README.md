@@ -9,34 +9,32 @@ ezek közül választja ki a legjobbat. Ez az adatbázis a jelölt filmeket tart
 ---
 ### Feladatok:
 [1. feladat](#1-készítsen-új-adatbázist-oscar-néven)
+[2. feladat](#2-feladat)
 
 
 ---
 ## 1. Készítsen új adatbázist oscar néven!
-- Az UTF-8 kódolású szöveges állományokat(`film.txt`, `kapcsolat.txt`, `keszito.txt`) importálja az adatbázisba a fájlnévvel azonos néven (`film`, `kapcsolat`, `keszito`)!
-- Az állományok **első** sora a mezőneveket tartalmazza.
-- A létrehozás során állítsa be a megfelelő típusokat és az
-elsődleges kulcsokat! 
+- Futtassa le a **oscardijasfilmek.sql** állományt az alábbi táblák(`filmek`, `kapcsolatok`, `keszitok`) létrehozássához és feltöltéséhez
 
 ### Táblák:
-#### 1. `film`
+#### 1. `filmek`
 
 | id  | ev  | nyert | magyar  | cim     | bemutato |
 | :-: | :-: | :---: | :-----: | :-----: | :------: |
 | int | int | bool  | varchar | varchar | date     |
 
-#### 2. `kapcsolat`
+#### 2. `kapcsolatok`
 
 | filmId | keszitoId |
 | :----: | :-------: |
 | int    | int       |
 
-#### 3. `keszito`
+#### 3. `keszitok`
 
 | id  | nev     | producer |
 | :-: | :-----: | :------: |
 | int | varchar | bool     |
 
-![Alt text](oscardijabra.png)
+![táblák](oscardijabra_javitott.png)
 
 ## 2. feladat

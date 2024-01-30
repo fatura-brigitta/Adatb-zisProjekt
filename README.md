@@ -14,7 +14,8 @@ ezek közül választja ki a legjobbat. Ez az adatbázis a jelölt filmeket tart
 
 ---
 ## 1. Készítsen új adatbázist oscar néven!
-- Futtassa le a **oscardijasfilmek.sql** állományt az alábbi táblák(`filmek`, `kapcsolatok`, `keszitok`) létrehozásához és feltöltéséhez
+
+Futtassa le a **oscardijasfilmek.sql** állományt az alábbi táblák(`filmek`, `kapcsolatok`, `keszitok`) létrehozásához és feltöltéséhez
 
 ### Táblák:
 #### 1. `filmek`
@@ -38,5 +39,6 @@ ezek közül választja ki a legjobbat. Ez az adatbázis a jelölt filmeket tart
 ![táblák](oscardijabra_javitott.png)
 
 ## 2. feladat
-- Készítsen lekérdezést, amely az elismerés évének sorrendjében jeleníti meg az Oscar-díjas
+
+Készítsen lekérdezést, amely az elismerés évének sorrendjében jeleníti meg az Oscar-díjas
 filmeket! Az elnyerés éve és a film eredeti címe jelenjen meg! 

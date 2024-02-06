@@ -44,9 +44,11 @@ Futtassa le a **oscardijasfilmek.sql** állományt az alábbi táblák(`filmek`,
 | nev       | varchar | A készítő neve                    |
 | producer  | bool    | A név producerhez tartozik-e      |
 
-![táblák](oscardijabra_javitott.png)
+![táblák](kepek/oscardijabra_javitott.png)
 
 ## 2. feladat
 
 Készítsen lekérdezést, amely az elismerés évének sorrendjében jeleníti meg az Oscar-díjas
-filmeket! Az elnyerés éve és a film eredeti címe jelenjen meg! 
+filmeket! Az elnyerés éve és a film eredeti címe jelenjen meg!
+
+![másodikFeladat](kepek/masodikFeladat.png)

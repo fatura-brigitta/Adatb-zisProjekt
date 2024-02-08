@@ -9,7 +9,7 @@ ezek közül választja ki a legjobbat. Ez az adatbázis a jelölt filmeket tart
 ---
 ### Feladatok:
 - [1. feladat](#1-készítsen-új-adatbázist-oscar-néven)
--[2. feladat](#2-feladat)
+- [2. feladat](#2-feladat)
 - [3. feladat](#3-feladat)
 - [4. feladat](#4-feladat)
 - [5. feladat](#5-feladat)

@@ -52,3 +52,9 @@ Készítsen lekérdezést, amely az elismerés évének sorrendjében jeleníti 
 filmeket! Az elnyerés éve és a film eredeti címe jelenjen meg!
 
 ![másodikFeladat](kepek/masodikFeladat.png)
+
+
+
+
+1. A táblázat egy meghibásodás következtében, csak a 2019-ig megtartott Orscar-díjátadók adatait tartalmazza. Javítsd ki e problémát a 2020-as eredmények beillesztésével! (Elég egy konkrét példát beilleszteni.)
+2. 

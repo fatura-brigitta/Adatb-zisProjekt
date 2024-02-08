@@ -46,7 +46,7 @@ Futtassa le a **oscardijasfilmek.sql** állományt az alábbi táblák(`filmek`,
 
 ![táblák](kepek/oscardijabra_javitott.png)
 
-## 2. feladat
+## 5. feladat
 
 Készítsen lekérdezést, amely az elismerés évének sorrendjében jeleníti meg az Oscar-díjas
 filmeket! Az elnyerés éve és a film eredeti címe jelenjen meg!
@@ -57,4 +57,4 @@ filmeket! Az elnyerés éve és a film eredeti címe jelenjen meg!
 
 
 1. A táblázat egy meghibásodás következtében, csak a 2019-ig megtartott Orscar-díjátadók adatait tartalmazza. Javítsd ki e problémát a 2020-as eredmények beillesztésével! (Elég egy konkrét példát beilleszteni.)
-2. 
+2. Frissítsd a legutóbb hozzáadott adat ID-ját egy tetszőleges négyjegyű számra, melynek számjegyei különböző értékeket képviselnek!

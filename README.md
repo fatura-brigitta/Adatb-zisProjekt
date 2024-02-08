@@ -58,3 +58,4 @@ filmeket! Az elnyerés éve és a film eredeti címe jelenjen meg!
 
 1. A táblázat egy meghibásodás következtében, csak a 2019-ig megtartott Orscar-díjátadók adatait tartalmazza. Javítsd ki e problémát a 2020-as eredmények beillesztésével! (Elég egy konkrét példát beilleszteni.)
 2. Frissítsd a legutóbb hozzáadott adat ID-ját egy tetszőleges négyjegyű számra, melynek számjegyei különböző értékeket képviselnek!
+3. Chuck Norris nyakonrúgta az 1969-es Oscar-gála főszervezőjét, így a rendezvény nem került megrendezésre. Töröld az 1969-es adatokat az adatbázisból!

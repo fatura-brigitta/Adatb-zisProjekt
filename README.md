@@ -9,7 +9,10 @@ ezek közül választja ki a legjobbat. Ez az adatbázis a jelölt filmeket tart
 ---
 ### Feladatok:
 - [1. feladat](#1-készítsen-új-adatbázist-oscar-néven)
-- [2. feladat](#2-feladat)
+-[2. feladat](#2-feladat)
+- [3. feladat](#3-feladat)
+- [4. feladat](#4-feladat)
+- [5. feladat](#5-feladat)
 
 
 ---
@@ -46,16 +49,18 @@ Futtassa le a **oscardijasfilmek.sql** állományt az alábbi táblák(`filmek`,
 
 ![táblák](kepek/oscardijabra_javitott.png)
 
+## 2. feladat
+A táblázat egy meghibásodás következtében, csak a 2019-ig megtartott Orscar-díjátadók adatait tartalmazza. Javítsd ki e problémát a 2020-as eredmények beillesztésével! (Elég egy konkrét példát beilleszteni.)
+
+## 3. feladat
+Frissítsd a legutóbb hozzáadott adat ID-ját egy tetszőleges négyjegyű számra, melynek számjegyei különböző értékeket képviselnek!
+
+## 4. feladat
+Chuck Norris nyakonrúgta az 1969-es Oscar-gála főszervezőjét, így a rendezvény nem került megrendezésre. Töröld az 1969-es adatokat az adatbázisból!
+
 ## 5. feladat
 
 Készítsen lekérdezést, amely az elismerés évének sorrendjében jeleníti meg az Oscar-díjas
 filmeket! Az elnyerés éve és a film eredeti címe jelenjen meg!
 
 ![másodikFeladat](kepek/masodikFeladat.png)
-
-
-
-
-1. A táblázat egy meghibásodás következtében, csak a 2019-ig megtartott Orscar-díjátadók adatait tartalmazza. Javítsd ki e problémát a 2020-as eredmények beillesztésével! (Elég egy konkrét példát beilleszteni.)
-2. Frissítsd a legutóbb hozzáadott adat ID-ját egy tetszőleges négyjegyű számra, melynek számjegyei különböző értékeket képviselnek!
-3. Chuck Norris nyakonrúgta az 1969-es Oscar-gála főszervezőjét, így a rendezvény nem került megrendezésre. Töröld az 1969-es adatokat az adatbázisból!

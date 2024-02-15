@@ -8,7 +8,13 @@ ezek közül választja ki a legjobbat. Ez az adatbázis a jelölt filmeket tart
 
 ---
 ### Feladatok:
-  - [1. feladat!](#1-készítsen-új-adatbázist-oscar-néven)
+- [3. Oscar-díjas filmek](#3-oscar-díjas-filmek)
+    - [Feladatok:](#feladatok)
+  - [1. Készítsen új adatbázist oscar néven!](#1-készítsen-új-adatbázist-oscar-néven)
+    - [Táblák:](#táblák)
+      - [1. `filmek`](#1-filmek)
+      - [2. `kapcsolatok`](#2-kapcsolatok)
+      - [3. `keszitok`](#3-keszitok)
   - [2. feladat](#2-feladat)
   - [3. feladat](#3-feladat)
   - [4. feladat](#4-feladat)
@@ -79,22 +85,22 @@ filmeket! Az elnyerés éve és a film eredeti címe jelenjen meg!
 ## 6. feladat
 Készítsen lekérdezést, amely megadja, hogy mely években jelöltek legalább 10 filmet a díjra! Csak a jelölés évét jelenítse meg!
 
-![hatodikFeladat](kepek/)
+![hatodikFeladat](kepek/hatodikFeladat.png)
 
 ## 7. feladat
 Készítsen lekérdezést, amely megadja azon filmek eredeti címét, amelyeket a második világháború éveiben (1939 és 1945 között, a határokat is beleértve) jelöltek és ebben az időszakban be is mutattak hazánkban!
 
-![hetedikFeladat](kepek/)
+![hetedikFeladat](kepek/hetedikFeladat.png)
 
 ## 8. feladat
 Készítsen lekérdezést, amely megadja, hogy mely nyertes filmek esetén volt a magyarországi bemutató legalább 10 évvel később, mint a díjazás! Csak a film eredeti címét jelenítse meg!
 
-![nyolcadikFeladat](kepek/)
+![nyolcadikFeladat](kepek/nyolcadikFeladat.png)
 
 ## 9. feladat
 Vannak olyan producerek, akiknek több filmjét is jelölték díjra, e feladatban őket keressük. Készítsen lekérdezést, amely megadja, hogy hány év telt el a legelső és a legutolsó jelölés között! Jelenítse meg a producer nevét, a jelölések számát és az első és utolsó jelölés között eltelt időt!
 
-![kilencedikFeladat](kepek/)
+![kilencedikFeladat](kepek/kilencedikFeladat.png)
 
 ## 10. feladat
 Nem ritka, hogy egy-egy filmnek több, akár három-négy producere is van. Készítsen lekérdezést, amely megadja, hogy a jelölést kapott, azaz az adatbázisban tárolt filmekben kik voltak „Clint Eastwood” producertársai! Az érintett személyek nevét jelenítse meg, és biztosítsa, hogy mindenki csak egyszer szerepeljen!

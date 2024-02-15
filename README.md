@@ -94,7 +94,7 @@ Készítsen lekérdezést, amely megadja, hogy mely nyertes filmek esetén volt 
 ## 9. feladat
 Vannak olyan producerek, akiknek több filmjét is jelölték díjra, e feladatban őket keressük. Készítsen lekérdezést, amely megadja, hogy hány év telt el a legelső és a legutolsó jelölés között! Jelenítse meg a producer nevét, a jelölések számát és az első és utolsó jelölés között eltelt időt!
 
-![kilencedikFeladat](kepek/kilencedikFeladat.png)
+![kilencedikFeladat](kepek/)
 
 ## 10. feladat
 Nem ritka, hogy egy-egy filmnek több, akár három-négy producere is van. Készítsen lekérdezést, amely megadja, hogy a jelölést kapott, azaz az adatbázisban tárolt filmekben kik voltak „Clint Eastwood” producertársai! Az érintett személyek nevét jelenítse meg, és biztosítsa, hogy mindenki csak egyszer szerepeljen!

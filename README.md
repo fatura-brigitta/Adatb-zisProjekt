@@ -8,13 +8,7 @@ ezek közül választja ki a legjobbat. Ez az adatbázis a jelölt filmeket tart
 
 ---
 ### Feladatok:
-- [3. Oscar-díjas filmek](#3-oscar-díjas-filmek)
-    - [Feladatok:](#feladatok)
-  - [1. Készítsen új adatbázist oscar néven!](#1-készítsen-új-adatbázist-oscar-néven)
-    - [Táblák:](#táblák)
-      - [1. `filmek`](#1-filmek)
-      - [2. `kapcsolatok`](#2-kapcsolatok)
-      - [3. `keszitok`](#3-keszitok)
+  - [1. feladat](#1-készítsen-új-adatbázist-oscar-néven)
   - [2. feladat](#2-feladat)
   - [3. feladat](#3-feladat)
   - [4. feladat](#4-feladat)

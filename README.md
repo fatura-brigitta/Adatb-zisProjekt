@@ -8,7 +8,13 @@ ezek közül választja ki a legjobbat. Ez az adatbázis a jelölt filmeket tart
 
 ---
 ### Feladatok:
-  - [1. feladat](#1-készítsen-új-adatbázist-oscar-néven)
+- [3. Oscar-díjas filmek](#3-oscar-díjas-filmek)
+    - [Feladatok:](#feladatok)
+  - [1. Készítsen új adatbázist oscar néven!](#1-készítsen-új-adatbázist-oscar-néven)
+    - [Táblák:](#táblák)
+      - [1. `filmek`](#1-filmek)
+      - [2. `kapcsolatok`](#2-kapcsolatok)
+      - [3. `keszitok`](#3-keszitok)
   - [2. feladat](#2-feladat)
   - [3. feladat](#3-feladat)
   - [4. feladat](#4-feladat)
@@ -74,7 +80,7 @@ Chuck Norris nyakonrúgta a "Még egy kört mindenkinek" című film rendezőjé
 Készítsen lekérdezést, amely az elismerés évének sorrendjében jeleníti meg az Oscar-díjas
 filmeket! Az elnyerés éve és a film eredeti címe jelenjen meg!
 
-![ötödikFeladat](kepek/masodikFeladat.png)
+![ötödikFeladat](kepek/otodikFeladat.png)
 
 ## 6. feladat
 Készítsen lekérdezést, amely megadja, hogy mely években jelöltek legalább 10 filmet a díjra! Csak a jelölés évét jelenítse meg!

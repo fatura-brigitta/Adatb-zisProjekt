@@ -8,13 +8,7 @@ ezek közül választja ki a legjobbat. Ez az adatbázis a jelölt filmeket tart
 
 ---
 ### Feladatok:
-- [3. Oscar-díjas filmek](#3-oscar-díjas-filmek)
-    - [Feladatok:](#feladatok)
-  - [1. Készítsen új adatbázist oscar néven!](#1-készítsen-új-adatbázist-oscar-néven)
-    - [Táblák:](#táblák)
-      - [1. `filmek`](#1-filmek)
-      - [2. `kapcsolatok`](#2-kapcsolatok)
-      - [3. `keszitok`](#3-keszitok)
+  - [1. feladat](#1-készítsen-új-adatbázist-oscar-néven)
   - [2. feladat](#2-feladat)
   - [3. feladat](#3-feladat)
   - [4. feladat](#4-feladat)
@@ -60,6 +54,9 @@ Futtassa le a **oscardijasfilmek.sql** állományt az alábbi táblák(`filmek`,
 | producer  | bool    | A név producerhez tartozik-e      |
 
 ![táblák](kepek/oscardijabra_javitott.png)
+
+A következő feladatokat megoldó SQL parancsokat rögzítse a megoldások.sql állományban a feladatok végén zárójelben jelölt sor alá! A javítás során csak ennek az állománynak a tartalmát értékelik.
+Ügyeljen arra, hogy a lekérdezésekben pontosan a kívánt mezők szerepeljenek, felesleges mezőt ne jelenítsen meg!
 
 ## 2. feladat
 A táblázat egy meghibásodás következtében, csak a 2019-ig megtartott Orscar-díjátadók adatait tartalmazza. Javítsd ki e problémát a 2020-as eredmények beillesztésével! (Elég egy konkrét példát beilleszteni => id(900, ev(2020), nyert(1), magyar("Még egy kört mindenkinek"), cim("Druk"), bemutato(null)).)

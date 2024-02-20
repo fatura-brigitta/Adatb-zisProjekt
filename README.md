@@ -8,13 +8,7 @@ ezek közül választja ki a legjobbat. Ez az adatbázis a jelölt filmeket tart
 
 ---
 ### Feladatok:
-- [3. Oscar-díjas filmek](#3-oscar-díjas-filmek)
-    - [Feladatok:](#feladatok)
-  - [1. Készítsen új adatbázist oscar néven!](#1-készítsen-új-adatbázist-oscar-néven)
-    - [Táblák:](#táblák)
-      - [1. `filmek`](#1-filmek)
-      - [2. `kapcsolatok`](#2-kapcsolatok)
-      - [3. `keszitok`](#3-keszitok)
+  - [1. feladat](#1-készítsen-új-adatbázist-oscar-néven)
   - [2. feladat](#2-feladat)
   - [3. feladat](#3-feladat)
   - [4. feladat](#4-feladat)
@@ -37,7 +31,7 @@ Futtassa le a **oscardijasfilmek.sql** állományt az alábbi táblák(`filmek`,
 
 | Azonosító | Típus   | Leírás                                    |
 | :-------: | :-----: | :----:                                    |
-| id        | int     | A film azonosítója, ez a kulcs            |
+| id        | int     | A film azonosítója, ez az elsődleges kulcs|
 | ev        | int     | A film Oscar-díjra jelölésének éve        |
 | nyert     | bool    | A film elnyerte-e a díjat                 |
 | magyar    | varchar | A film magyar nyelvű címe, ha ismert      |
@@ -46,18 +40,18 @@ Futtassa le a **oscardijasfilmek.sql** állományt az alábbi táblák(`filmek`,
 
 #### 2. `kapcsolatok`
 
-| Azonosító | Típus | Leírás                            |
-| :-------: | :---: | :----:                            |
-| filmId    | int   | A film azonosítója, ez a kulcs    |
-| keszitoId | int   | A készítő azonosítója, ez a kulcs |
+| Azonosító | Típus | Leírás                                    |
+| :-------: | :---: | :----:                                    |
+| filmId    | int   | A film azonosítója, ez az idegen kulcs    |
+| keszitoId | int   | A készítő azonosítója, ez az idegen kulcs |
 
 #### 3. `keszitok`
 
-| Azonosító | Típus   | Leírás                            |
-| :-------: | :-----: | :----:                            |
-| id        | int     | A készítő azonosítója, ez a kulcs |
-| nev       | varchar | A készítő neve                    |
-| producer  | bool    | A név producerhez tartozik-e      |
+| Azonosító | Típus   | Leírás                                        |
+| :-------: | :-----: | :----:                                        |
+| id        | int     | A készítő azonosítója, ez az elsődleges kulcs |
+| nev       | varchar | A készítő neve                                |
+| producer  | bool    | A név producerhez tartozik-e                  |
 
 ![táblák](kepek/oscardijabra_javitott.png)
 

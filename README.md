@@ -62,7 +62,8 @@ Futtassa le a **oscardijasfilmek.sql** állományt az alábbi táblák(`filmek`,
 ![táblák](kepek/oscardijabra_javitott.png)
 
 ## 2. feladat
-A táblázat egy meghibásodás következtében, csak a 2019-ig megtartott Orscar-díjátadók adatait tartalmazza. Javítsd ki e problémát a 2020-as eredmények beillesztésével! (Elég egy konkrét példát beilleszteni.)
+A táblázat egy meghibásodás következtében, csak a 2019-ig megtartott Orscar-díjátadók adatait tartalmazza. Javítsd ki e problémát a 2020-as eredmények beillesztésével! (Elég egy konkrét példát beilleszteni => id(900, ev(2020), nyert(1), magyar("Még egy kört mindenkinek"), cim("Druk"), bemutato(null)).)
+
 
 
 ## 3. feladat
@@ -70,7 +71,7 @@ Frissítsd a legutóbb hozzáadott adat ID-ját egy tetszőleges négyjegyű sz�
 
 
 ## 4. feladat
-Chuck Norris nyakonrúgta a "Még egy kört mindenkinek" című film rendezőjét. A film így végül nem került megrendelésre. Amennyiben megtalálható az adatbázisban, kerüljön törlésre.
+Chuck Norris nyakonrúgta a "Még egy kört mindenkinek" című film rendezőjét. A film így végül nem került megrendezésre. Amennyiben megtalálható az adatbázisban, kerüljön törlésre.
 
 
 ## 5. feladat

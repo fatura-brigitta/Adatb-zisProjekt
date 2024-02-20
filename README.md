@@ -64,17 +64,14 @@ Futtassa le a **oscardijasfilmek.sql** állományt az alábbi táblák(`filmek`,
 ## 2. feladat
 A táblázat egy meghibásodás következtében, csak a 2019-ig megtartott Orscar-díjátadók adatait tartalmazza. Javítsd ki e problémát a 2020-as eredmények beillesztésével! (Elég egy konkrét példát beilleszteni.)
 
-![másodikFeladat](kepek/)
 
 ## 3. feladat
 Frissítsd a legutóbb hozzáadott adat ID-ját egy tetszőleges négyjegyű számra, melynek számjegyei különböző értékeket képviselnek!
 
-![harmadikFeladat](kepek/)
 
 ## 4. feladat
 Chuck Norris nyakonrúgta a "Még egy kört mindenkinek" című film rendezőjét. A film így végül nem került megrendelésre. Amennyiben megtalálható az adatbázisban, kerüljön törlésre.
 
-![negyedikFeladat](kepek/)
 
 ## 5. feladat
 Készítsen lekérdezést, amely az elismerés évének sorrendjében jeleníti meg az Oscar-díjas
@@ -100,14 +97,14 @@ Készítsen lekérdezést, amely megadja, hogy mely nyertes filmek esetén volt 
 ## 9. feladat
 Vannak olyan producerek, akiknek több filmjét is jelölték díjra, e feladatban őket keressük. Készítsen lekérdezést, amely megadja, hogy hány év telt el a legelső és a legutolsó jelölés között! Jelenítse meg a producer nevét, a jelölések számát és az első és utolsó jelölés között eltelt időt!
 
-![kilencedikFeladat](kepek/)
+![kilencedikFeladat](kepek/kilencedikFeladat.png)
 
 ## 10. feladat
 Nem ritka, hogy egy-egy filmnek több, akár három-négy producere is van. Készítsen lekérdezést, amely megadja, hogy a jelölést kapott, azaz az adatbázisban tárolt filmekben kik voltak „Clint Eastwood” producertársai! Az érintett személyek nevét jelenítse meg, és biztosítsa, hogy mindenki csak egyszer szerepeljen!
 
-![tizedikFeladat](kepek/)
+![tizedikFeladat](kepek/tizedikFeladat.png)
 
 ## 11. feladat
 Készítsen lekérdezést, amely megadja, hogy kik azok a producerek, akiknek egyetlen Oscar-díjra jelölt filmje esetén sem ismert a magyarországi bemutató dátuma!
 
-![tizenegyedikFeladat](kepek/)
+![tizenegyedikFeladat](kepek/tizenegyedikFeladat.png)
